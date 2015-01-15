@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding = "20dp" >
+
+        <TextView
+            android:id="@+id/reqAmtText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="Requested Amount"
+            android:textSize = "20sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/amtText"
+            android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:textColor="#000000" />
+
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding = "20dp" >
+	
+        <TextView
+            android:id="@+id/reItemText"
+            android:layout_height="wrap_content"
+            android:layout_width = "0dp"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="Requested Item"
+            android:textSize = "20sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/itemText"
+            android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:textColor="#000000" />
+   </LinearLayout>
+   
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding = "20dp">	
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:gravity="left"
+             android:text="Old Balance"
+             android:textColor="#000000"
+             android:textSize="20dp" />
+
+         <TextView
+             android:id="@+id/oldBalanceT"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:textColor="#ffffff" />
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding = "20dp">	
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:gravity="left"
+             android:text="New Balance"
+             android:textColor="#000000"
+             android:textSize="20dp" />
+
+         <TextView
+             android:id = "@+id/newBalanceT"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight = "1"
+             android:gravity="center"
+             android:textColor="#ffffff" />
+	</LinearLayout>
+ 
+
+	<TableRow
+	    android:id="@+id/tableRow3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:paddingBottom="20dp"
+	    android:paddingTop="20dp"
+	    >
+
+		<Button
+		    android:id="@+id/confirmCredit"
+		    android:layout_width="107dp"
+		    android:layout_height="45dp"
+		    android:layout_marginLeft="20dp"
+		    android:background="#00ff00"
+		    android:padding="2dp"
+		    android:text="Confirm" />
+		
+		<Button
+		    android:id="@+id/rejectCredit"
+		    android:layout_width="107dp"
+		    android:layout_height="45dp"
+		    android:layout_marginLeft="40dp"
+		    android:background="#ff0000"
+		    android:padding="2dp"
+		    android:text="Reject" />
+	</TableRow>
+
+</LinearLayout>

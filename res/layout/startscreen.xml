@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAB000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="120dp"
+        android:text="USE APP AS"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout 
+    android:id="@+id/LinearLayout02" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:orientation="horizontal">
+    	<Button
+        android:id="@+id/customer"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="CUSTOMER"
+        android:layout_margin="20dp"
+        
+         />
+	    <Button 
+	    android:id="@+id/shopkeeper"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="SHOPKEEPER"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+	        />
+	</LinearLayout>
+    
+	</LinearLayout>
